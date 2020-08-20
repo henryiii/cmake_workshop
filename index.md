@@ -31,6 +31,8 @@ see the changes take effect locally.
 </div>
 {% endif %}
 
+This site has been moved to the HSF training page!
+<https://hsf-training.github.io/hsf-training-cmake-webpage>
 
 
 Welcome to the FIRST-HEP CMake tutorial! The aim of this tutorial is to cover the basics of using CMake. This tutorial is based on the online book [Modern CMake][], with a focus on CMake 3.14+. This is in what is [called the "More Modern" era](https://github.com/Bagira80/More-Modern-CMake) of CMake (which is 3.12+), and includes the fantastic command line improvements in CMake π (notes for 3.11+ compatible features will be included usually). We will cover the basics of making and building a project, and some details of design.
