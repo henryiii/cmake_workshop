@@ -1,7 +1,6 @@
 [Modern CMake]: https://cliutils.gitlab.io/modern-cmake/
 [CMake Instructions]: https://cliutils.gitlab.io/modern-cmake/chapters/intro/installing.html
 [Docker]: https://www.docker.com/
-
 [coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html
 [concept-maps]: https://carpentries.github.io/instructor-training/05-memory/
 [contrib-covenant]: https://contributor-covenant.org/
