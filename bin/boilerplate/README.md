@@ -1,8 +1,7 @@
 # FIXME Lesson title
 
-[![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
-
-FIXME
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Contributing
 
@@ -13,13 +12,35 @@ We'd like to ask you to familiarize yourself with our [Contribution Guide](CONTR
 the [more detailed guidelines][lesson-example] on proper formatting, ways to render the lesson locally, and even
 how to write new episodes.
 
+Please see the current list of [issues][FIXME] for ideas for contributing to this
+repository. For making your contribution, we use the GitHub flow, which is
+nicely explained in the chapter [Contributing to a Project](http://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) in Pro Git
+by Scott Chacon.
+Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%20issue-gold.svg). This indicates that the maintainers will welcome a pull request fixing this issue.
+
+
 ## Maintainer(s)
 
+Current maintainers of this lesson are
+
 * FIXME
+* FIXME
+* FIXME
+
 
 ## Authors
 
-A list of contributors to the lesson can be found in [AUTHORS](AUTHORS)
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)) who contributed to
+the content of the lesson:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Even more people contributed to the framework, but they are too many to list!
 
 ## Citation
 

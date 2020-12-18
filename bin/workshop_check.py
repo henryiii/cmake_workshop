@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 '''Check that a workshop's index.html metadata is valid.  See the
 docstrings on the checking functions for a summary of the checks.
 '''
@@ -18,7 +16,7 @@ EVENTBRITE_PATTERN = r'\d{9,10}'
 URL_PATTERN = r'https?://.+'
 
 # Defaults.
-CARPENTRIES = ("dc", "swc", "lc", "cp")
+CARPENTRIES = ('hsf', "dc", "swc", "lc", "cp")
 DEFAULT_CONTACT_EMAIL = 'admin@software-carpentry.org'
 
 USAGE = 'Usage: "workshop_check.py path/to/root/directory"'
@@ -390,7 +388,7 @@ def check_config(reporter, filename):
                    kind)
 
     carpentry = config.get('carpentry', None)
-    reporter.check(carpentry in ('swc', 'dc', 'lc', 'cp'),
+    reporter.check(carpentry in ('hsf', 'swc', 'dc', 'lc', 'cp'),
                    filename,
                    'Missing or unknown carpentry: {0}',
                    carpentry)
@@ -410,7 +408,7 @@ def main():
     reporter = Reporter()
     check_config(reporter, config_file)
     check_unwanted_files(root_dir, reporter)
-    with open(index_file) as reader:
+    with open(index_file, encoding='utf-8') as reader:
         data = reader.read()
         check_file(reporter, index_file, data)
     reporter.report()
